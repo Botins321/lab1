@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>myworkbook</title>
+    </head>
+    <body>
+      <h1> Hello u are in my mind now, congrats</h1>
+      <form method="get" action="/action_page.php">
+        <lable for="firstname">First name:</lable><br><br>
+        <input type="text" name="firstname" required>
+        <lable for="surname">Surname:</lable><br><br>
+        <input type="text" name="surname" required>
+        <lable for="age">Age:</lable><br><br>
+        <input type="text" name="age" required>
+        <lable for="surname">Surname:</lable><br><br>
+        <input type="text" name="surname" required>
+        <lable for="facility">Facility:</lable><br><br>
+        <input type="text" name="facility" required>
+        <input type="submit">
+      </form>
+    </body>
+  </html>
