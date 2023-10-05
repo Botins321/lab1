@@ -1,0 +1,13 @@
+GET /tsi/my_page.php?name=Jegors&surname=Aleksejenko&age=20&id=81924&facility=computerscience
+POST /ttsi/my_page.php HTTP/1.1
+Host: tsi.com
+name=Jegors&surname=Aleksejenko&age=21&id=81924&facility=computerscience
+
+POST
+{
+"student_name": "Jegors",
+"student_surname": "Aleksejenko",
+"student_age": 20,
+"student_id": "81924",
+"student_facility": "ComputerScience"
+}
